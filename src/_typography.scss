@@ -1,0 +1,139 @@
+@import './_color.scss';
+
+// Typography
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+b,
+strong {
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  color: $color-steel;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  color: $color-steel;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.125em;
+  line-height: 1.125em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.25em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.125em;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+ul {
+  text-align: left;
+  list-style: disc;
+  color: $color-steel;
+  font-weight: 400;
+  max-width: 24em;
+  margin: 0;
+}
+
+li {
+  margin: 0.375em 0;
+}
+
+ol {
+  text-align: left;
+  color: $color-steel;
+  font-weight: 400;
+  max-width: 24em;
+  margin: 0;
+}
+
+ol li {
+  margin: 0.375em 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:link {
+  font-size: 1em;
+  color: $color-primary;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size: 1em;
+  color: $color-primary;
+  border-bottom: none;
+}
+
+a:hover {
+  font-size: 1em;
+  color: $color-secondary;
+  border-bottom: 1px solid $color-secondary;
+}
+
+a:active {
+  color: $color-active;
+  border-bottom: none;
+}
+
+a.reverse {
+  background-color: $color-primary;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a.reverse:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.reverse:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+a.reverse:active {
+  color: $color-active;
+  border-bottom: none;
+}
